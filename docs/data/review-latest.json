@@ -1,12 +1,869 @@
 {
-  "generated_at": "2026-07-19T08:27:30+00:00",
+  "generated_at": "2026-07-26T08:36:04+00:00",
   "stats": {
     "clusters": 40,
-    "merged": 0,
+    "merged": 15,
     "topic_fixed": 0,
     "flagged": 0,
     "skipped": 0,
-    "ai_ok": false
+    "ai_ok": true
   },
-  "changes": []
+  "changes": [
+    {
+      "kind": "merge",
+      "sig": "8192d40819b2",
+      "confidence": 0.95,
+      "reason": "same exhibition, slight venue name variation (Galeria 3+1 vs 3+1 Arte Contemporânea) and earlier start in one source",
+      "canonical": {
+        "id": "3e986ff5d8d1",
+        "title": "Nuno Sousa Vieira: Desisto – o que não vejo imagino",
+        "venue": "Galeria 3+1"
+      },
+      "removed": [
+        {
+          "id": "ad6b2af9f35f",
+          "title": "Nuno Sousa Vieira",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "3+1 Arte Contemporânea",
+          "source_id": "agendalx",
+          "neighbourhood": "Avenida da Liberdade",
+          "zone": "city",
+          "lat": 38.7188727,
+          "lng": -9.1548944,
+          "start": "2026-07-26",
+          "end": "2026-09-12",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/nuno-sousa-vieira-4/",
+          "source": "agendalx",
+          "description": "A prática multidisciplinar de Nuno Sousa Vieira é influenciada pelo espaço de trabalho do artista, onde os materiais, cores e motivos que o rodeiam se tornam frequentemente parte integrante das obr...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/04/Imagem1-13.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "e0da66153654",
+      "confidence": 0.95,
+      "reason": "same exhibition at MNAC, minor title variation and earlier start in one source",
+      "canonical": {
+        "id": "8c69a93287f9",
+        "title": "Maria José Oliveira Eu que já fui eu",
+        "venue": "MNAC – Museu Nacional de Arte Contemporânea (Museu do Chiado)"
+      },
+      "removed": [
+        {
+          "id": "54f491ff7863",
+          "title": "Maria José Oliveira",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Museu Nacional de Arte Contemporânea do Chiado",
+          "source_id": "agendalx",
+          "neighbourhood": "Chiado",
+          "zone": "city",
+          "lat": 38.70846,
+          "lng": -9.141161,
+          "start": "2026-07-26",
+          "end": "2026-10-04",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/maria-jose-oliveira-2/",
+          "source": "agendalx",
+          "description": "A exposição Eu que já fui eu , de Maria José Oliveira, reúne um conjunto de obras que exploram o tempo, a memória e as ligações entre as pessoas, convidando à reflexão sobre continui...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/05/Imagem1-7.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "5947e5ae4d9b",
+      "confidence": 0.95,
+      "reason": "same exhibition at Zé dos Bois, venue listed as gallery vs bookshop, minor date differences",
+      "canonical": {
+        "id": "bf78a1ad7657",
+        "title": "RedSkyFalls (Réplica) – Uma rede de transmissão sísmica – de Alexandre Estrela",
+        "venue": "ZDB – Galeria Zé dos Bois"
+      },
+      "removed": [
+        {
+          "id": "344dd02d9ea7",
+          "title": "Alexandre Estrela",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Livraria Zé dos Bois",
+          "source_id": "agendalx",
+          "neighbourhood": "Bairro Alto",
+          "zone": "city",
+          "lat": 38.7117856,
+          "lng": -9.1445953,
+          "start": "2026-07-26",
+          "end": "2026-11-21",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": true,
+            "min": 0,
+            "currency": "EUR",
+            "text": "Grátis"
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/alexandre-estrela-4/",
+          "source": "agendalx",
+          "description": "A propósito da sua peça RedSkyFalls, em exibição no Pavilhão de Portugal em Veneza na Biennale 2026, Alexandre Estrela apresenta uma série de Réplicas. Estas Réplicas caracterizam-se por al...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/05/dddd-4.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "e51fc88d4e3b",
+      "confidence": 0.95,
+      "reason": "same exhibition at Zé dos Bois, venue listed as gallery vs bookshop, earlier start in one source",
+      "canonical": {
+        "id": "575986d8a2b9",
+        "title": "Livraria Mike Tyson’s Worst Nightmare – de Francisco Corrêa",
+        "venue": "ZDB – Galeria Zé dos Bois"
+      },
+      "removed": [
+        {
+          "id": "6b40ace80379",
+          "title": "Francisco Corrêa",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Livraria Zé dos Bois",
+          "source_id": "agendalx",
+          "neighbourhood": "Bairro Alto",
+          "zone": "city",
+          "lat": 38.711825,
+          "lng": -9.144522,
+          "start": "2026-07-26",
+          "end": "2026-08-31",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": true,
+            "min": 0,
+            "currency": "EUR",
+            "text": "Grátis"
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/francisco-correa/",
+          "source": "agendalx",
+          "description": "Francisco Corrêa apresenta uma instalação que é, ao mesmo tempo, a última memória de uma vida e o primeiro gesto de uma narrativa por montar. A obra integra um projeto mais amplo que encontr...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/05/Capas-website-ZDB-II-19-3-1.png",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "5cd32a35d796",
+      "confidence": 0.95,
+      "reason": "same exhibition at Zé dos Bois, venue listed as gallery vs bookshop, earlier start in one source",
+      "canonical": {
+        "id": "45065a681795",
+        "title": "Bruscky em Brusque – de Paulo Bruscky",
+        "venue": "ZDB – Galeria Zé dos Bois"
+      },
+      "removed": [
+        {
+          "id": "fa6d9567d891",
+          "title": "Paulo Bruscky",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Livraria Zé dos Bois",
+          "source_id": "agendalx",
+          "neighbourhood": "Bairro Alto",
+          "zone": "city",
+          "lat": 38.7117856,
+          "lng": -9.1445953,
+          "start": "2026-07-26",
+          "end": "2026-08-31",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/paulo-bruscky/",
+          "source": "agendalx",
+          "description": "Esta mostra antológica dedicada a Paulo Bruscky (n. 1949, Recife, Brasil) propõe uma leitura abrangente do percurso de um dos pioneiros da arte conceptual no Brasil. Desde os anos 1970, o artista...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/05/PERFORMANCE-Paulo-Bruscky-1978-Livro-de-artista_edited-scaled.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "480f30b65a37",
+      "confidence": 0.95,
+      "reason": "same exhibition at Zé dos Bois, venue listed as gallery vs bookshop, minimal title spelling variation",
+      "canonical": {
+        "id": "be06b33e618b",
+        "title": "EMPORIO – de Musa paradisiaca",
+        "venue": "ZDB – Galeria Zé dos Bois"
+      },
+      "removed": [
+        {
+          "id": "61f2c78b75b2",
+          "title": "Musa Paradisíaca",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Livraria Zé dos Bois",
+          "source_id": "agendalx",
+          "neighbourhood": "Bairro Alto",
+          "zone": "city",
+          "lat": 38.7117856,
+          "lng": -9.1445953,
+          "start": "2026-07-26",
+          "end": "2026-08-31",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": 3.0,
+            "currency": "EUR",
+            "text": "€3"
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/musa-paradisiaca-5/",
+          "source": "agendalx",
+          "description": "Musa paradisiaca estreia Emporio , uma peça audiovisual duracional de 90 minutos que opera na fenda entre o colapso histórico e o colapso privado. No centro desta arqueologia magnética,...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/05/EMPORIO_Musa-paradisiaca-scaled.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "2d7ab86da3cc",
+      "confidence": 0.95,
+      "reason": "same exhibition at MNAC, earlier start in one source",
+      "canonical": {
+        "id": "076200e371d7",
+        "title": "Alice Geirinhas Sycorax",
+        "venue": "MNAC – Museu Nacional de Arte Contemporânea (Museu do Chiado)"
+      },
+      "removed": [
+        {
+          "id": "f20a67310605",
+          "title": "Alice Geirinhas",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Museu Nacional de Arte Contemporânea do Chiado",
+          "source_id": "agendalx",
+          "neighbourhood": "Chiado",
+          "zone": "city",
+          "lat": 38.70846,
+          "lng": -9.141161,
+          "start": "2026-07-26",
+          "end": "2026-09-20",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/alice-geirinhas-4/",
+          "source": "agendalx",
+          "description": "Partindo da figura de Sycorax - a bruxa e mãe de Caliban em A Tempestade , de William Shakespeare -, Alice Geirinhas constrói uma instalação de desenhos que procura devolver presença a um...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/06/Alice-Geirinhas.png",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "1284da1c410a",
+      "confidence": 0.85,
+      "reason": "same artist and end date, but venue names differ (Fascínio da Fotografia vs Lumina Galeria); likely same event but lower confidence",
+      "canonical": {
+        "id": "3e30bbac486e",
+        "title": "João Mariano, Ocean Spray",
+        "venue": "Fascínio da Fotografia"
+      },
+      "removed": [
+        {
+          "id": "18eca60974de",
+          "title": "João Mariano",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Lumina Galeria",
+          "source_id": "agendalx",
+          "neighbourhood": "Penha de França",
+          "zone": "city",
+          "lat": 38.736613,
+          "lng": -9.130446,
+          "start": "2026-07-26",
+          "end": "2026-09-12",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/joao-mariano-2/",
+          "source": "agendalx",
+          "description": "São 17 obras de um projecto em curso em que o mar da Costa Vicentina surge no preto e branco profundo recorrente na prática do autor, que acentua a dimensão escultórica da água e a espessura das...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/05/®Joao-Mariano-scaled.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "3a95e3f7a963",
+      "confidence": 0.95,
+      "reason": "same exhibition at MNAC, title shortened in second source, earlier start in one source",
+      "canonical": {
+        "id": "8ecb39b101a2",
+        "title": "A Coleção Dos Gestos e das Formas Um diálogo entre coleções",
+        "venue": "MNAC – Museu Nacional de Arte Contemporânea (Museu do Chiado)"
+      },
+      "removed": [
+        {
+          "id": "02457f698593",
+          "title": "Dos Gestos e das Formas",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Museu Nacional de Arte Contemporânea do Chiado",
+          "source_id": "agendalx",
+          "neighbourhood": "Chiado",
+          "zone": "city",
+          "lat": 38.70846,
+          "lng": -9.141161,
+          "start": "2026-07-26",
+          "end": "2026-09-20",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/dos-gestos-e-das-formas/",
+          "source": "agendalx",
+          "description": "A exposição reúne, num mesmo espaço, peças de séculos distintos para revelar ligações inesperadas entre o passado e o presente. Estas obras fizeram, em tempos...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/06/Imagem1-6.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "744d85160cb8",
+      "confidence": 0.95,
+      "reason": "same exhibition, venue is MAAT (name variations), earlier start in one source",
+      "canonical": {
+        "id": "3e4b78f76d47",
+        "title": "Céleste Boursier-Mougenot: from here to ear",
+        "venue": "MAAT Gallery"
+      },
+      "removed": [
+        {
+          "id": "a5c5a54dc1de",
+          "title": "Céleste Boursier-Mougenot",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "MAAT - Museu de Arte, Arquitetura e Tecnologia",
+          "source_id": "agendalx",
+          "neighbourhood": "Avenida da Liberdade",
+          "zone": "city",
+          "lat": 38.69591,
+          "lng": -9.19569,
+          "start": "2026-07-26",
+          "end": "2026-08-31",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/celeste-boursier-mougenot/",
+          "source": "agendalx",
+          "description": "Para esta primeira exposição individual em Portugal, o artista francês Céleste Boursier-Mougenot apresenta uma das suas obras mais icónicas: From Here to Ear . Enquanto compositor, C?...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/06/CBM_from-here-to-ear_hangar-Bicocca-2011_-photo┬®CBM-1.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "6b4513611f21",
+      "confidence": 0.98,
+      "reason": "same film retrospective, spelling variant, dates slightly off but same end",
+      "canonical": {
+        "id": "6374b3badcef",
+        "title": "Retrospetiva Luchino Visconti",
+        "venue": "Cinema Medeia Nimas"
+      },
+      "removed": [
+        {
+          "id": "bc4d79896ba6",
+          "title": "Retrospectiva Luchino Visconti",
+          "topic": "film",
+          "categories": [
+            7
+          ],
+          "venue": "Cinema Medeia Nimas",
+          "source_id": "cinema-medeia-nimas-espaco-nimas",
+          "neighbourhood": "Avenidas Novas",
+          "zone": "city",
+          "lat": null,
+          "lng": null,
+          "start": "2026-07-17",
+          "end": "2026-09-06",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://medeiafilmes.com/ciclos/retrospectiva-luchino-visconti",
+          "source": "generic",
+          "description": "Retrospetiva dedicada ao cineasta italiano Luchino Visconti.",
+          "image": null,
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "296a55e1ec19",
+      "confidence": 0.9,
+      "reason": "same retrospective, titles different, date ranges slightly inconsistent",
+      "canonical": {
+        "id": "fa5704b79a21",
+        "title": "Agnès Varda – A Nouvelle Vague e os seus Reflexos",
+        "venue": "Cinema Medeia Nimas"
+      },
+      "removed": [
+        {
+          "id": "de940094f88a",
+          "title": "Grande Retrospectiva Agnès Varda",
+          "topic": "film",
+          "categories": [
+            20
+          ],
+          "venue": "Cinema Medeia Nimas",
+          "source_id": "institut-francais-du-portugal-ifp",
+          "neighbourhood": "Avenida da Liberdade",
+          "zone": "city",
+          "lat": 38.735721,
+          "lng": -9.147266,
+          "start": "2026-07-30",
+          "end": "2026-09-23",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": 5.0,
+            "currency": "EUR",
+            "text": "€5–8"
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.ifp-lisboa.com/evenement/grande-retrospectiva-agnes-varda/",
+          "source": "generic",
+          "description": "CinemaAgnès Varda (1928-2019), realizadora belga que fez carreira no cinema francês, é celebrada este verão com uma grande retrospetiva, a maior até hoje em Portugal, no Cinema Nimas. O programa inclui 36 filmes, entre longas e curtas-metragens, ficção e documentárioA cineasta, m.",
+          "image": "https://www.ifp-lisboa.com//content/uploads/2026/07/Varda-site.jpg",
+          "lineup": null,
+          "links": [
+            "https://viralagenda.com/pt/events/1826377/grande-retrospetiva-agnes-varda"
+          ],
+          "prov": {
+            "description": "generic",
+            "price": "generic"
+          }
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "c49beb15d3f3",
+      "confidence": 0.98,
+      "reason": "same exhibition, capitalization and venue abbreviation, end dates off",
+      "canonical": {
+        "id": "f722303aaa73",
+        "title": "Para que servem as coisas?",
+        "venue": "MUDE - Museu do Design"
+      },
+      "removed": [
+        {
+          "id": "22f4889d5441",
+          "title": "Para que Servem as Coisas?",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "MUDE",
+          "source_id": "bol",
+          "neighbourhood": "Baixa",
+          "zone": "city",
+          "lat": 38.709173047805,
+          "lng": -9.136494398117,
+          "start": "2026-07-28T10:00",
+          "end": "2026-12-31",
+          "all_day": false,
+          "ongoing": true,
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": 13.0,
+            "currency": "EUR",
+            "text": "€13"
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.bol.pt/Comprar/Bilhetes/182871-para_que_servem_as_coisas-mude/",
+          "source": "bol",
+          "description": "",
+          "image": "https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz126055.jpg?v=3",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "5c8982c94348",
+      "confidence": 0.98,
+      "reason": "same exhibition, full title vs short, same dates",
+      "canonical": {
+        "id": "cc936815f573",
+        "title": "Ver e Ler Paulo de Cantos",
+        "venue": "MUDE"
+      },
+      "removed": [
+        {
+          "id": "0468cb5fc358",
+          "title": "Paulo de Cantos",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "MUDE - Museu do Design",
+          "source_id": "agendalx",
+          "neighbourhood": "Baixa",
+          "zone": "city",
+          "lat": 38.709176,
+          "lng": -9.136667,
+          "start": "2026-07-26",
+          "end": "2026-09-06",
+          "all_day": true,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.agendalx.pt/events/event/paulo-de-cantos/",
+          "source": "agendalx",
+          "description": "A exposição Ver e Ler apresenta o trabalho autoeditado de Paulo de Cantos (1892-1979). Figura multifacetada — pedagogo, artista,...",
+          "image": "https://www.agendalx.pt/content/uploads/2026/05/Imagem1-31.jpg",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "707d72b7399f",
+      "confidence": 0.98,
+      "reason": "same exhibition, title slight variation, same dates",
+      "canonical": {
+        "id": "ff332056374b",
+        "title": "Criadores de Marionetas em Portugal no Século XXI",
+        "venue": "Museu da Marioneta"
+      },
+      "removed": [
+        {
+          "id": "17cf3febdea5",
+          "title": "Criadores de Marionetas no Séc XXI -Exposição Temporária",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "Museu da Marioneta",
+          "source_id": "bol",
+          "neighbourhood": "Estrela",
+          "zone": "city",
+          "lat": 38.707972,
+          "lng": -9.1583509,
+          "start": "2026-07-26T10:00",
+          "end": "2026-09-27",
+          "all_day": false,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": 4.0,
+            "currency": "EUR",
+            "text": "€4"
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.bol.pt/Comprar/Bilhetes/178945-criadores_de_marionetas_no_sec_xxi_exposicao_temporaria-museu_da_marioneta/",
+          "source": "bol",
+          "description": "",
+          "image": "https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz153665.jpg?v=7",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    }
+  ]
 }
