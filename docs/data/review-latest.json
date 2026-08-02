@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-26T08:36:04+00:00",
+  "generated_at": "2026-08-02T08:31:15+00:00",
   "stats": {
-    "clusters": 40,
-    "merged": 15,
-    "topic_fixed": 0,
+    "clusters": 38,
+    "merged": 10,
+    "topic_fixed": 1,
     "flagged": 0,
     "skipped": 0,
     "ai_ok": true
@@ -11,54 +11,48 @@
   "changes": [
     {
       "kind": "merge",
-      "sig": "8192d40819b2",
+      "sig": "fdd4be0a7219",
       "confidence": 0.95,
-      "reason": "same exhibition, slight venue name variation (Galeria 3+1 vs 3+1 Arte Contemporânea) and earlier start in one source",
+      "reason": "same concert, incorrect venue in one listing",
       "canonical": {
-        "id": "3e986ff5d8d1",
-        "title": "Nuno Sousa Vieira: Desisto – o que não vejo imagino",
-        "venue": "Galeria 3+1"
+        "id": "c32821df9689",
+        "title": "João Nogueira Quarteto toca Coltrane’s Sound",
+        "venue": "Capitólio"
       },
       "removed": [
         {
-          "id": "ad6b2af9f35f",
-          "title": "Nuno Sousa Vieira",
-          "topic": "art",
+          "id": "acedef10ec33",
+          "title": "João Nogueira Quarteto toca Coltrane's sound - Há Jazz no Parque Mayer",
+          "topic": "music",
           "categories": [
-            1
+            10
           ],
-          "venue": "3+1 Arte Contemporânea",
-          "source_id": "agendalx",
+          "venue": "Hot Clube de Portugal",
+          "source_id": "hot-clube-de-portugal",
           "neighbourhood": "Avenida da Liberdade",
           "zone": "city",
-          "lat": 38.7188727,
-          "lng": -9.1548944,
-          "start": "2026-07-26",
-          "end": "2026-09-12",
-          "all_day": true,
-          "ongoing": true,
+          "lat": null,
+          "lng": null,
+          "start": "2026-08-09T19:30",
+          "end": null,
+          "all_day": false,
+          "ongoing": false,
           "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
             "sun"
           ],
           "price": {
             "is_free": false,
-            "min": null,
+            "min": 5.0,
             "currency": "EUR",
-            "text": ""
+            "text": "€5"
           },
           "language": [
             "pt"
           ],
-          "url": "https://www.agendalx.pt/events/event/nuno-sousa-vieira-4/",
-          "source": "agendalx",
-          "description": "A prática multidisciplinar de Nuno Sousa Vieira é influenciada pelo espaço de trabalho do artista, onde os materiais, cores e motivos que o rodeiam se tornam frequentemente parte integrante das obr...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/04/Imagem1-13.jpg",
+          "url": "https://teatrovariedades-capitolio.pt/evento/joao-nogueira-quarteto-toca-coltranes-sound/",
+          "source": "generic",
+          "description": "O pianista João Nogueira lidera um quarteto que interpreta 'Coltrane's Sound', no terraço do Cineteatro Capitólio, celebrando o centenário de John Coltrane.",
+          "image": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/06/Foto-2-53381.jpg",
           "lineup": null,
           "links": null,
           "prov": null
@@ -70,7 +64,7 @@
       "kind": "merge",
       "sig": "e0da66153654",
       "confidence": 0.95,
-      "reason": "same exhibition at MNAC, minor title variation and earlier start in one source",
+      "reason": "same exhibition, duplicate listing",
       "canonical": {
         "id": "8c69a93287f9",
         "title": "Maria José Oliveira Eu que já fui eu",
@@ -78,7 +72,7 @@
       },
       "removed": [
         {
-          "id": "54f491ff7863",
+          "id": "9aaf005d42d8",
           "title": "Maria José Oliveira",
           "topic": "art",
           "categories": [
@@ -90,7 +84,7 @@
           "zone": "city",
           "lat": 38.70846,
           "lng": -9.141161,
-          "start": "2026-07-26",
+          "start": "2026-08-02",
           "end": "2026-10-04",
           "all_day": true,
           "ongoing": true,
@@ -125,237 +119,9 @@
     },
     {
       "kind": "merge",
-      "sig": "5947e5ae4d9b",
-      "confidence": 0.95,
-      "reason": "same exhibition at Zé dos Bois, venue listed as gallery vs bookshop, minor date differences",
-      "canonical": {
-        "id": "bf78a1ad7657",
-        "title": "RedSkyFalls (Réplica) – Uma rede de transmissão sísmica – de Alexandre Estrela",
-        "venue": "ZDB – Galeria Zé dos Bois"
-      },
-      "removed": [
-        {
-          "id": "344dd02d9ea7",
-          "title": "Alexandre Estrela",
-          "topic": "art",
-          "categories": [
-            1
-          ],
-          "venue": "Livraria Zé dos Bois",
-          "source_id": "agendalx",
-          "neighbourhood": "Bairro Alto",
-          "zone": "city",
-          "lat": 38.7117856,
-          "lng": -9.1445953,
-          "start": "2026-07-26",
-          "end": "2026-11-21",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": true,
-            "min": 0,
-            "currency": "EUR",
-            "text": "Grátis"
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://www.agendalx.pt/events/event/alexandre-estrela-4/",
-          "source": "agendalx",
-          "description": "A propósito da sua peça RedSkyFalls, em exibição no Pavilhão de Portugal em Veneza na Biennale 2026, Alexandre Estrela apresenta uma série de Réplicas. Estas Réplicas caracterizam-se por al...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/05/dddd-4.jpg",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
-      "sig": "e51fc88d4e3b",
-      "confidence": 0.95,
-      "reason": "same exhibition at Zé dos Bois, venue listed as gallery vs bookshop, earlier start in one source",
-      "canonical": {
-        "id": "575986d8a2b9",
-        "title": "Livraria Mike Tyson’s Worst Nightmare – de Francisco Corrêa",
-        "venue": "ZDB – Galeria Zé dos Bois"
-      },
-      "removed": [
-        {
-          "id": "6b40ace80379",
-          "title": "Francisco Corrêa",
-          "topic": "art",
-          "categories": [
-            1
-          ],
-          "venue": "Livraria Zé dos Bois",
-          "source_id": "agendalx",
-          "neighbourhood": "Bairro Alto",
-          "zone": "city",
-          "lat": 38.711825,
-          "lng": -9.144522,
-          "start": "2026-07-26",
-          "end": "2026-08-31",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": true,
-            "min": 0,
-            "currency": "EUR",
-            "text": "Grátis"
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://www.agendalx.pt/events/event/francisco-correa/",
-          "source": "agendalx",
-          "description": "Francisco Corrêa apresenta uma instalação que é, ao mesmo tempo, a última memória de uma vida e o primeiro gesto de uma narrativa por montar. A obra integra um projeto mais amplo que encontr...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/05/Capas-website-ZDB-II-19-3-1.png",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
-      "sig": "5cd32a35d796",
-      "confidence": 0.95,
-      "reason": "same exhibition at Zé dos Bois, venue listed as gallery vs bookshop, earlier start in one source",
-      "canonical": {
-        "id": "45065a681795",
-        "title": "Bruscky em Brusque – de Paulo Bruscky",
-        "venue": "ZDB – Galeria Zé dos Bois"
-      },
-      "removed": [
-        {
-          "id": "fa6d9567d891",
-          "title": "Paulo Bruscky",
-          "topic": "art",
-          "categories": [
-            1
-          ],
-          "venue": "Livraria Zé dos Bois",
-          "source_id": "agendalx",
-          "neighbourhood": "Bairro Alto",
-          "zone": "city",
-          "lat": 38.7117856,
-          "lng": -9.1445953,
-          "start": "2026-07-26",
-          "end": "2026-08-31",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": false,
-            "min": null,
-            "currency": "EUR",
-            "text": ""
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://www.agendalx.pt/events/event/paulo-bruscky/",
-          "source": "agendalx",
-          "description": "Esta mostra antológica dedicada a Paulo Bruscky (n. 1949, Recife, Brasil) propõe uma leitura abrangente do percurso de um dos pioneiros da arte conceptual no Brasil. Desde os anos 1970, o artista...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/05/PERFORMANCE-Paulo-Bruscky-1978-Livro-de-artista_edited-scaled.jpg",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
-      "sig": "480f30b65a37",
-      "confidence": 0.95,
-      "reason": "same exhibition at Zé dos Bois, venue listed as gallery vs bookshop, minimal title spelling variation",
-      "canonical": {
-        "id": "be06b33e618b",
-        "title": "EMPORIO – de Musa paradisiaca",
-        "venue": "ZDB – Galeria Zé dos Bois"
-      },
-      "removed": [
-        {
-          "id": "61f2c78b75b2",
-          "title": "Musa Paradisíaca",
-          "topic": "art",
-          "categories": [
-            1
-          ],
-          "venue": "Livraria Zé dos Bois",
-          "source_id": "agendalx",
-          "neighbourhood": "Bairro Alto",
-          "zone": "city",
-          "lat": 38.7117856,
-          "lng": -9.1445953,
-          "start": "2026-07-26",
-          "end": "2026-08-31",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": false,
-            "min": 3.0,
-            "currency": "EUR",
-            "text": "€3"
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://www.agendalx.pt/events/event/musa-paradisiaca-5/",
-          "source": "agendalx",
-          "description": "Musa paradisiaca estreia Emporio , uma peça audiovisual duracional de 90 minutos que opera na fenda entre o colapso histórico e o colapso privado. No centro desta arqueologia magnética,...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/05/EMPORIO_Musa-paradisiaca-scaled.jpg",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
       "sig": "2d7ab86da3cc",
       "confidence": 0.95,
-      "reason": "same exhibition at MNAC, earlier start in one source",
+      "reason": "same exhibition, duplicate listing",
       "canonical": {
         "id": "076200e371d7",
         "title": "Alice Geirinhas Sycorax",
@@ -363,7 +129,7 @@
       },
       "removed": [
         {
-          "id": "f20a67310605",
+          "id": "e50c1dfe9203",
           "title": "Alice Geirinhas",
           "topic": "art",
           "categories": [
@@ -375,7 +141,7 @@
           "zone": "city",
           "lat": 38.70846,
           "lng": -9.141161,
-          "start": "2026-07-26",
+          "start": "2026-08-02",
           "end": "2026-09-20",
           "all_day": true,
           "ongoing": true,
@@ -410,30 +176,30 @@
     },
     {
       "kind": "merge",
-      "sig": "1284da1c410a",
-      "confidence": 0.85,
-      "reason": "same artist and end date, but venue names differ (Fascínio da Fotografia vs Lumina Galeria); likely same event but lower confidence",
+      "sig": "24c02e210a38",
+      "confidence": 0.6,
+      "reason": "same exhibition title, likely same but venue mismatch",
       "canonical": {
-        "id": "3e30bbac486e",
-        "title": "João Mariano, Ocean Spray",
-        "venue": "Fascínio da Fotografia"
+        "id": "78873a5cf962",
+        "title": "Katharina Lackner. Paisagem Onírica",
+        "venue": "Espaço Engawa"
       },
       "removed": [
         {
-          "id": "18eca60974de",
-          "title": "João Mariano",
+          "id": "3ce9a9736409",
+          "title": "Katharina Lackner. Paisagem Onírica",
           "topic": "art",
           "categories": [
-            1
+            10
           ],
-          "venue": "Lumina Galeria",
-          "source_id": "agendalx",
-          "neighbourhood": "Penha de França",
+          "venue": "Fundação Calouste Gulbenkian",
+          "source_id": "gulbenkian",
+          "neighbourhood": "Avenida da Liberdade",
           "zone": "city",
-          "lat": 38.736613,
-          "lng": -9.130446,
-          "start": "2026-07-26",
-          "end": "2026-09-12",
+          "lat": 38.7380413,
+          "lng": -9.1550827,
+          "start": "2026-08-02",
+          "end": "2026-08-10",
           "all_day": true,
           "ongoing": true,
           "days": [
@@ -446,18 +212,18 @@
             "sun"
           ],
           "price": {
-            "is_free": false,
-            "min": null,
+            "is_free": true,
+            "min": 0,
             "currency": "EUR",
-            "text": ""
+            "text": "Grátis"
           },
           "language": [
             "pt"
           ],
-          "url": "https://www.agendalx.pt/events/event/joao-mariano-2/",
-          "source": "agendalx",
-          "description": "São 17 obras de um projecto em curso em que o mar da Costa Vicentina surge no preto e branco profundo recorrente na prática do autor, que acentua a dimensão escultórica da água e a espessura das...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/05/®Joao-Mariano-scaled.jpg",
+          "url": "https://gulbenkian.pt/agenda/katharina-lackner-paisagem-onirica-atos-de-criacao-efemeros-inconscientes/",
+          "source": "gulbenkian",
+          "description": "Paisagem Onírica – Atos de Criação Efémeros (In)conscientes» é uma instalação interativa e em constante evolução que convida a uma experiência partilhada a partir do jogo aberto e da colaboração.",
+          "image": "https://gulbenkian.pt/wp-content/uploads/2026/04/creditos-Katharina-Lackner_Dreamscaping-1-1-CARD.jpg",
           "lineup": null,
           "links": null,
           "prov": null
@@ -467,17 +233,17 @@
     },
     {
       "kind": "merge",
-      "sig": "3a95e3f7a963",
+      "sig": "7ea1cd8b523a",
       "confidence": 0.95,
-      "reason": "same exhibition at MNAC, title shortened in second source, earlier start in one source",
+      "reason": "same exhibition, duplicate listing",
       "canonical": {
-        "id": "8ecb39b101a2",
-        "title": "A Coleção Dos Gestos e das Formas Um diálogo entre coleções",
+        "id": "2e7b77e3763f",
+        "title": "A Coleção Dos Gestos e das Formas",
         "venue": "MNAC – Museu Nacional de Arte Contemporânea (Museu do Chiado)"
       },
       "removed": [
         {
-          "id": "02457f698593",
+          "id": "e7b9a5e115ca",
           "title": "Dos Gestos e das Formas",
           "topic": "art",
           "categories": [
@@ -489,7 +255,7 @@
           "zone": "city",
           "lat": 38.70846,
           "lng": -9.141161,
-          "start": "2026-07-26",
+          "start": "2026-08-02",
           "end": "2026-09-20",
           "all_day": true,
           "ongoing": true,
@@ -526,7 +292,7 @@
       "kind": "merge",
       "sig": "744d85160cb8",
       "confidence": 0.95,
-      "reason": "same exhibition, venue is MAAT (name variations), earlier start in one source",
+      "reason": "same exhibition, duplicate listing",
       "canonical": {
         "id": "3e4b78f76d47",
         "title": "Céleste Boursier-Mougenot: from here to ear",
@@ -534,7 +300,7 @@
       },
       "removed": [
         {
-          "id": "a5c5a54dc1de",
+          "id": "62cdb8b7babd",
           "title": "Céleste Boursier-Mougenot",
           "topic": "art",
           "categories": [
@@ -546,7 +312,7 @@
           "zone": "city",
           "lat": 38.69591,
           "lng": -9.19569,
-          "start": "2026-07-26",
+          "start": "2026-08-02",
           "end": "2026-08-31",
           "all_day": true,
           "ongoing": true,
@@ -581,30 +347,31 @@
     },
     {
       "kind": "merge",
-      "sig": "6b4513611f21",
-      "confidence": 0.98,
-      "reason": "same film retrospective, spelling variant, dates slightly off but same end",
+      "sig": "cb6b9265d3d9",
+      "confidence": 0.9,
+      "reason": "same festival, different sources, Jardim de Verão likely part of Gulbenkian",
       "canonical": {
-        "id": "6374b3badcef",
-        "title": "Retrospetiva Luchino Visconti",
-        "venue": "Cinema Medeia Nimas"
+        "id": "9a54b5e5a12e",
+        "title": "Jazz em Agosto",
+        "venue": "Jardim de Verão"
       },
       "removed": [
         {
-          "id": "bc4d79896ba6",
-          "title": "Retrospectiva Luchino Visconti",
-          "topic": "film",
+          "id": "8f92440c5230",
+          "title": "Jazz em Agosto'26",
+          "topic": "music",
           "categories": [
-            7
+            13,
+            33
           ],
-          "venue": "Cinema Medeia Nimas",
-          "source_id": "cinema-medeia-nimas-espaco-nimas",
-          "neighbourhood": "Avenidas Novas",
+          "venue": "Fundação Calouste Gulbenkian",
+          "source_id": "wonderland-lisboa",
+          "neighbourhood": "Avenida da Liberdade",
           "zone": "city",
-          "lat": null,
-          "lng": null,
-          "start": "2026-07-17",
-          "end": "2026-09-06",
+          "lat": 38.7380413,
+          "lng": -9.1550827,
+          "start": "2026-07-31",
+          "end": "2026-08-09",
           "all_day": true,
           "ongoing": true,
           "days": [
@@ -625,10 +392,10 @@
           "language": [
             "pt"
           ],
-          "url": "https://medeiafilmes.com/ciclos/retrospectiva-luchino-visconti",
+          "url": "https://visitlisboa.com/en/events/jazz-em-agosto-2",
           "source": "generic",
-          "description": "Retrospetiva dedicada ao cineasta italiano Luchino Visconti.",
-          "image": null,
+          "description": "Jazz em Agosto proposes a program that mirrors the multiples identities of contemporary jazz | at the Fundação Gulbenkian.",
+          "image": "https://visitlisboa.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMTIsInB1ciI6ImJsb2JfaWQifX0=--0f0012c331596159cd6f7b569636583b15e21857/visit-lisboa-jazz-em-agosto-2026.jpg",
           "lineup": null,
           "links": null,
           "prov": null
@@ -638,76 +405,17 @@
     },
     {
       "kind": "merge",
-      "sig": "296a55e1ec19",
-      "confidence": 0.9,
-      "reason": "same retrospective, titles different, date ranges slightly inconsistent",
-      "canonical": {
-        "id": "fa5704b79a21",
-        "title": "Agnès Varda – A Nouvelle Vague e os seus Reflexos",
-        "venue": "Cinema Medeia Nimas"
-      },
-      "removed": [
-        {
-          "id": "de940094f88a",
-          "title": "Grande Retrospectiva Agnès Varda",
-          "topic": "film",
-          "categories": [
-            20
-          ],
-          "venue": "Cinema Medeia Nimas",
-          "source_id": "institut-francais-du-portugal-ifp",
-          "neighbourhood": "Avenida da Liberdade",
-          "zone": "city",
-          "lat": 38.735721,
-          "lng": -9.147266,
-          "start": "2026-07-30",
-          "end": "2026-09-23",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": false,
-            "min": 5.0,
-            "currency": "EUR",
-            "text": "€5–8"
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://www.ifp-lisboa.com/evenement/grande-retrospectiva-agnes-varda/",
-          "source": "generic",
-          "description": "CinemaAgnès Varda (1928-2019), realizadora belga que fez carreira no cinema francês, é celebrada este verão com uma grande retrospetiva, a maior até hoje em Portugal, no Cinema Nimas. O programa inclui 36 filmes, entre longas e curtas-metragens, ficção e documentárioA cineasta, m.",
-          "image": "https://www.ifp-lisboa.com//content/uploads/2026/07/Varda-site.jpg",
-          "lineup": null,
-          "links": [
-            "https://viralagenda.com/pt/events/1826377/grande-retrospetiva-agnes-varda"
-          ],
-          "prov": {
-            "description": "generic",
-            "price": "generic"
-          }
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
       "sig": "c49beb15d3f3",
-      "confidence": 0.98,
-      "reason": "same exhibition, capitalization and venue abbreviation, end dates off",
+      "confidence": 0.99,
+      "reason": "same exhibition, small title variation",
       "canonical": {
-        "id": "f722303aaa73",
+        "id": "db0d51d40ded",
         "title": "Para que servem as coisas?",
         "venue": "MUDE - Museu do Design"
       },
       "removed": [
         {
-          "id": "22f4889d5441",
+          "id": "ff2786ea5e74",
           "title": "Para que Servem as Coisas?",
           "topic": "art",
           "categories": [
@@ -719,11 +427,12 @@
           "zone": "city",
           "lat": 38.709173047805,
           "lng": -9.136494398117,
-          "start": "2026-07-28T10:00",
+          "start": "2026-08-02T10:00",
           "end": "2026-12-31",
           "all_day": false,
           "ongoing": true,
           "days": [
+            "mon",
             "tue",
             "wed",
             "thu",
@@ -753,74 +462,17 @@
     },
     {
       "kind": "merge",
-      "sig": "5c8982c94348",
-      "confidence": 0.98,
-      "reason": "same exhibition, full title vs short, same dates",
-      "canonical": {
-        "id": "cc936815f573",
-        "title": "Ver e Ler Paulo de Cantos",
-        "venue": "MUDE"
-      },
-      "removed": [
-        {
-          "id": "0468cb5fc358",
-          "title": "Paulo de Cantos",
-          "topic": "art",
-          "categories": [
-            1
-          ],
-          "venue": "MUDE - Museu do Design",
-          "source_id": "agendalx",
-          "neighbourhood": "Baixa",
-          "zone": "city",
-          "lat": 38.709176,
-          "lng": -9.136667,
-          "start": "2026-07-26",
-          "end": "2026-09-06",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": false,
-            "min": null,
-            "currency": "EUR",
-            "text": ""
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://www.agendalx.pt/events/event/paulo-de-cantos/",
-          "source": "agendalx",
-          "description": "A exposição Ver e Ler apresenta o trabalho autoeditado de Paulo de Cantos (1892-1979). Figura multifacetada — pedagogo, artista,...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/05/Imagem1-31.jpg",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
       "sig": "707d72b7399f",
-      "confidence": 0.98,
-      "reason": "same exhibition, title slight variation, same dates",
+      "confidence": 0.99,
+      "reason": "same exhibition, identical venue and dates",
       "canonical": {
-        "id": "ff332056374b",
+        "id": "f06aa56cd977",
         "title": "Criadores de Marionetas em Portugal no Século XXI",
         "venue": "Museu da Marioneta"
       },
       "removed": [
         {
-          "id": "17cf3febdea5",
+          "id": "d6ee49e3c0be",
           "title": "Criadores de Marionetas no Séc XXI -Exposição Temporária",
           "topic": "art",
           "categories": [
@@ -832,7 +484,7 @@
           "zone": "city",
           "lat": 38.707972,
           "lng": -9.1583509,
-          "start": "2026-07-26T10:00",
+          "start": "2026-08-02T10:00",
           "end": "2026-09-27",
           "all_day": false,
           "ongoing": true,
@@ -864,6 +516,60 @@
         }
       ],
       "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "cef1f1336b72",
+      "confidence": 0.99,
+      "reason": "same workshop, different descriptions, date overlap",
+      "canonical": {
+        "id": "aacc9366d387",
+        "title": "Masterchef Romano",
+        "venue": "Museu de Lisboa - Teatro Romano"
+      },
+      "removed": [
+        {
+          "id": "b1ec3fb465b8",
+          "title": "Teatro Romano - Masterchef Romano - Oficina",
+          "topic": "performance",
+          "categories": [
+            1
+          ],
+          "venue": "ML - Teatro Romano",
+          "source_id": "bol",
+          "neighbourhood": "Baixa",
+          "zone": "city",
+          "lat": 38.7103669,
+          "lng": -9.1324807,
+          "start": "2026-08-09T10:30",
+          "end": "2026-10-10",
+          "all_day": false,
+          "ongoing": true,
+          "days": [
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": 5.0,
+            "currency": "EUR",
+            "text": "€5"
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.bol.pt/Comprar/Bilhetes/162823-teatro_romano_masterchef_romano_oficina-ml_teatro_romano/",
+          "source": "bol",
+          "description": "",
+          "image": "https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz139747.jpg?v=3",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": {
+        "from": "family",
+        "to": "workshops"
+      }
     }
   ]
 }
