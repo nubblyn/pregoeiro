@@ -1,241 +1,19 @@
 {
-  "generated_at": "2026-08-02T08:31:15+00:00",
+  "generated_at": "2026-08-09T07:03:17+00:00",
   "stats": {
-    "clusters": 38,
-    "merged": 10,
-    "topic_fixed": 1,
-    "flagged": 0,
+    "clusters": 40,
+    "merged": 9,
+    "topic_fixed": 0,
+    "flagged": 1,
     "skipped": 0,
     "ai_ok": true
   },
   "changes": [
     {
       "kind": "merge",
-      "sig": "fdd4be0a7219",
-      "confidence": 0.95,
-      "reason": "same concert, incorrect venue in one listing",
-      "canonical": {
-        "id": "c32821df9689",
-        "title": "João Nogueira Quarteto toca Coltrane’s Sound",
-        "venue": "Capitólio"
-      },
-      "removed": [
-        {
-          "id": "acedef10ec33",
-          "title": "João Nogueira Quarteto toca Coltrane's sound - Há Jazz no Parque Mayer",
-          "topic": "music",
-          "categories": [
-            10
-          ],
-          "venue": "Hot Clube de Portugal",
-          "source_id": "hot-clube-de-portugal",
-          "neighbourhood": "Avenida da Liberdade",
-          "zone": "city",
-          "lat": null,
-          "lng": null,
-          "start": "2026-08-09T19:30",
-          "end": null,
-          "all_day": false,
-          "ongoing": false,
-          "days": [
-            "sun"
-          ],
-          "price": {
-            "is_free": false,
-            "min": 5.0,
-            "currency": "EUR",
-            "text": "€5"
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://teatrovariedades-capitolio.pt/evento/joao-nogueira-quarteto-toca-coltranes-sound/",
-          "source": "generic",
-          "description": "O pianista João Nogueira lidera um quarteto que interpreta 'Coltrane's Sound', no terraço do Cineteatro Capitólio, celebrando o centenário de John Coltrane.",
-          "image": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/06/Foto-2-53381.jpg",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
-      "sig": "e0da66153654",
-      "confidence": 0.95,
-      "reason": "same exhibition, duplicate listing",
-      "canonical": {
-        "id": "8c69a93287f9",
-        "title": "Maria José Oliveira Eu que já fui eu",
-        "venue": "MNAC – Museu Nacional de Arte Contemporânea (Museu do Chiado)"
-      },
-      "removed": [
-        {
-          "id": "9aaf005d42d8",
-          "title": "Maria José Oliveira",
-          "topic": "art",
-          "categories": [
-            1
-          ],
-          "venue": "Museu Nacional de Arte Contemporânea do Chiado",
-          "source_id": "agendalx",
-          "neighbourhood": "Chiado",
-          "zone": "city",
-          "lat": 38.70846,
-          "lng": -9.141161,
-          "start": "2026-08-02",
-          "end": "2026-10-04",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": false,
-            "min": null,
-            "currency": "EUR",
-            "text": ""
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://www.agendalx.pt/events/event/maria-jose-oliveira-2/",
-          "source": "agendalx",
-          "description": "A exposição Eu que já fui eu , de Maria José Oliveira, reúne um conjunto de obras que exploram o tempo, a memória e as ligações entre as pessoas, convidando à reflexão sobre continui...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/05/Imagem1-7.jpg",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
-      "sig": "2d7ab86da3cc",
-      "confidence": 0.95,
-      "reason": "same exhibition, duplicate listing",
-      "canonical": {
-        "id": "076200e371d7",
-        "title": "Alice Geirinhas Sycorax",
-        "venue": "MNAC – Museu Nacional de Arte Contemporânea (Museu do Chiado)"
-      },
-      "removed": [
-        {
-          "id": "e50c1dfe9203",
-          "title": "Alice Geirinhas",
-          "topic": "art",
-          "categories": [
-            1
-          ],
-          "venue": "Museu Nacional de Arte Contemporânea do Chiado",
-          "source_id": "agendalx",
-          "neighbourhood": "Chiado",
-          "zone": "city",
-          "lat": 38.70846,
-          "lng": -9.141161,
-          "start": "2026-08-02",
-          "end": "2026-09-20",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": false,
-            "min": null,
-            "currency": "EUR",
-            "text": ""
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://www.agendalx.pt/events/event/alice-geirinhas-4/",
-          "source": "agendalx",
-          "description": "Partindo da figura de Sycorax - a bruxa e mãe de Caliban em A Tempestade , de William Shakespeare -, Alice Geirinhas constrói uma instalação de desenhos que procura devolver presença a um...",
-          "image": "https://www.agendalx.pt/content/uploads/2026/06/Alice-Geirinhas.png",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
-      "sig": "24c02e210a38",
-      "confidence": 0.6,
-      "reason": "same exhibition title, likely same but venue mismatch",
-      "canonical": {
-        "id": "78873a5cf962",
-        "title": "Katharina Lackner. Paisagem Onírica",
-        "venue": "Espaço Engawa"
-      },
-      "removed": [
-        {
-          "id": "3ce9a9736409",
-          "title": "Katharina Lackner. Paisagem Onírica",
-          "topic": "art",
-          "categories": [
-            10
-          ],
-          "venue": "Fundação Calouste Gulbenkian",
-          "source_id": "gulbenkian",
-          "neighbourhood": "Avenida da Liberdade",
-          "zone": "city",
-          "lat": 38.7380413,
-          "lng": -9.1550827,
-          "start": "2026-08-02",
-          "end": "2026-08-10",
-          "all_day": true,
-          "ongoing": true,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun"
-          ],
-          "price": {
-            "is_free": true,
-            "min": 0,
-            "currency": "EUR",
-            "text": "Grátis"
-          },
-          "language": [
-            "pt"
-          ],
-          "url": "https://gulbenkian.pt/agenda/katharina-lackner-paisagem-onirica-atos-de-criacao-efemeros-inconscientes/",
-          "source": "gulbenkian",
-          "description": "Paisagem Onírica – Atos de Criação Efémeros (In)conscientes» é uma instalação interativa e em constante evolução que convida a uma experiência partilhada a partir do jogo aberto e da colaboração.",
-          "image": "https://gulbenkian.pt/wp-content/uploads/2026/04/creditos-Katharina-Lackner_Dreamscaping-1-1-CARD.jpg",
-          "lineup": null,
-          "links": null,
-          "prov": null
-        }
-      ],
-      "topic": null
-    },
-    {
-      "kind": "merge",
       "sig": "7ea1cd8b523a",
       "confidence": 0.95,
-      "reason": "same exhibition, duplicate listing",
+      "reason": "same exhibition, slight title variation, same venue",
       "canonical": {
         "id": "2e7b77e3763f",
         "title": "A Coleção Dos Gestos e das Formas",
@@ -243,7 +21,7 @@
       },
       "removed": [
         {
-          "id": "e7b9a5e115ca",
+          "id": "d135843793ba",
           "title": "Dos Gestos e das Formas",
           "topic": "art",
           "categories": [
@@ -255,7 +33,7 @@
           "zone": "city",
           "lat": 38.70846,
           "lng": -9.141161,
-          "start": "2026-08-02",
+          "start": "2026-08-09",
           "end": "2026-09-20",
           "all_day": true,
           "ongoing": true,
@@ -292,7 +70,7 @@
       "kind": "merge",
       "sig": "744d85160cb8",
       "confidence": 0.95,
-      "reason": "same exhibition, duplicate listing",
+      "reason": "same exhibition, venue variant (MAAT Gallery vs MAAT)",
       "canonical": {
         "id": "3e4b78f76d47",
         "title": "Céleste Boursier-Mougenot: from here to ear",
@@ -300,7 +78,7 @@
       },
       "removed": [
         {
-          "id": "62cdb8b7babd",
+          "id": "a1aaa9fcdb84",
           "title": "Céleste Boursier-Mougenot",
           "topic": "art",
           "categories": [
@@ -312,7 +90,7 @@
           "zone": "city",
           "lat": 38.69591,
           "lng": -9.19569,
-          "start": "2026-08-02",
+          "start": "2026-08-09",
           "end": "2026-08-31",
           "all_day": true,
           "ongoing": true,
@@ -347,32 +125,31 @@
     },
     {
       "kind": "merge",
-      "sig": "cb6b9265d3d9",
-      "confidence": 0.9,
-      "reason": "same festival, different sources, Jardim de Verão likely part of Gulbenkian",
+      "sig": "a0d4b905e9ea",
+      "confidence": 0.95,
+      "reason": "same exhibition, same venue (Coliseu dos Recreios/Coliseu de Lisboa)",
       "canonical": {
-        "id": "9a54b5e5a12e",
-        "title": "Jazz em Agosto",
-        "venue": "Jardim de Verão"
+        "id": "3c03a9cf3022",
+        "title": "Teatro Anatómico – Exposição no Coliseu dos Recreios",
+        "venue": "Coliseu dos Recreios"
       },
       "removed": [
         {
-          "id": "8f92440c5230",
-          "title": "Jazz em Agosto'26",
-          "topic": "music",
+          "id": "5ebaf2ca05f0",
+          "title": "Teatro Anatómico – Exposição no Coliseu dos Recreios",
+          "topic": "performance",
           "categories": [
-            13,
-            33
+            1
           ],
-          "venue": "Fundação Calouste Gulbenkian",
-          "source_id": "wonderland-lisboa",
-          "neighbourhood": "Avenida da Liberdade",
+          "venue": "Coliseu de Lisboa",
+          "source_id": "bol",
+          "neighbourhood": "Arroios",
           "zone": "city",
-          "lat": 38.7380413,
-          "lng": -9.1550827,
-          "start": "2026-07-31",
-          "end": "2026-08-09",
-          "all_day": true,
+          "lat": 38.716506575013,
+          "lng": -9.140681326389,
+          "start": "2026-08-10T14:00",
+          "end": "2026-08-29",
+          "all_day": false,
           "ongoing": true,
           "days": [
             "mon",
@@ -385,20 +162,24 @@
           ],
           "price": {
             "is_free": false,
-            "min": null,
+            "min": 8.0,
             "currency": "EUR",
-            "text": ""
+            "text": "€8"
           },
           "language": [
             "pt"
           ],
-          "url": "https://visitlisboa.com/en/events/jazz-em-agosto-2",
-          "source": "generic",
-          "description": "Jazz em Agosto proposes a program that mirrors the multiples identities of contemporary jazz | at the Fundação Gulbenkian.",
-          "image": "https://visitlisboa.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMTIsInB1ciI6ImJsb2JfaWQifX0=--0f0012c331596159cd6f7b569636583b15e21857/visit-lisboa-jazz-em-agosto-2026.jpg",
+          "url": "https://www.bol.pt/Comprar/Bilhetes/178101-teatro_anatomico_exposicao_no_coliseu_dos_recreios-coliseu_de_lisboa/",
+          "source": "bol",
+          "description": "A exposição convida os visitantes a descobrir os bastidores, a história e o património do Coliseu dos Recreios através de um percurso expositivo único. Teatro Anatómico é um proje...",
+          "image": "https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz152922.jpg?v=9",
           "lineup": null,
-          "links": null,
-          "prov": null
+          "links": [
+            "https://www.agendalx.pt/events/event/teatro-anatomico/"
+          ],
+          "prov": {
+            "description": "agendalx"
+          }
         }
       ],
       "topic": null
@@ -406,16 +187,16 @@
     {
       "kind": "merge",
       "sig": "c49beb15d3f3",
-      "confidence": 0.99,
-      "reason": "same exhibition, small title variation",
+      "confidence": 0.95,
+      "reason": "same exhibition, extended dates",
       "canonical": {
-        "id": "db0d51d40ded",
+        "id": "a6f37eefa516",
         "title": "Para que servem as coisas?",
         "venue": "MUDE - Museu do Design"
       },
       "removed": [
         {
-          "id": "ff2786ea5e74",
+          "id": "45d7f352fc6a",
           "title": "Para que Servem as Coisas?",
           "topic": "art",
           "categories": [
@@ -427,7 +208,7 @@
           "zone": "city",
           "lat": 38.709173047805,
           "lng": -9.136494398117,
-          "start": "2026-08-02T10:00",
+          "start": "2026-08-09T10:00",
           "end": "2026-12-31",
           "all_day": false,
           "ongoing": true,
@@ -462,17 +243,74 @@
     },
     {
       "kind": "merge",
-      "sig": "707d72b7399f",
-      "confidence": 0.99,
-      "reason": "same exhibition, identical venue and dates",
+      "sig": "5c8982c94348",
+      "confidence": 0.95,
+      "reason": "same exhibition, title variation",
       "canonical": {
-        "id": "f06aa56cd977",
+        "id": "d3b6f66ed82e",
+        "title": "Paulo de Cantos",
+        "venue": "MUDE - Museu do Design"
+      },
+      "removed": [
+        {
+          "id": "8c48a018f906",
+          "title": "Ver e Ler Paulo de Cantos",
+          "topic": "art",
+          "categories": [
+            1
+          ],
+          "venue": "MUDE",
+          "source_id": "bol",
+          "neighbourhood": "Baixa",
+          "zone": "city",
+          "lat": 38.709173047805,
+          "lng": -9.136494398117,
+          "start": "2026-08-09T10:00",
+          "end": "2026-09-06",
+          "all_day": false,
+          "ongoing": true,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "price": {
+            "is_free": false,
+            "min": 11.0,
+            "currency": "EUR",
+            "text": "€11"
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.bol.pt/Comprar/Bilhetes/182945-ver_e_ler_paulo_de_cantos-mude/",
+          "source": "bol",
+          "description": "",
+          "image": "https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz152772.jpg?v=2",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "707d72b7399f",
+      "confidence": 1.0,
+      "reason": "same exhibition, slight title variation",
+      "canonical": {
+        "id": "b3aad705ff1d",
         "title": "Criadores de Marionetas em Portugal no Século XXI",
         "venue": "Museu da Marioneta"
       },
       "removed": [
         {
-          "id": "d6ee49e3c0be",
+          "id": "2ca7293f9b36",
           "title": "Criadores de Marionetas no Séc XXI -Exposição Temporária",
           "topic": "art",
           "categories": [
@@ -484,7 +322,7 @@
           "zone": "city",
           "lat": 38.707972,
           "lng": -9.1583509,
-          "start": "2026-08-02T10:00",
+          "start": "2026-08-09T10:00",
           "end": "2026-09-27",
           "all_day": false,
           "ongoing": true,
@@ -509,7 +347,67 @@
           "url": "https://www.bol.pt/Comprar/Bilhetes/178945-criadores_de_marionetas_no_sec_xxi_exposicao_temporaria-museu_da_marioneta/",
           "source": "bol",
           "description": "",
-          "image": "https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz153665.jpg?v=7",
+          "image": "https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz153665.jpg?v=8",
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
+    },
+    {
+      "kind": "flag",
+      "issue": "",
+      "event": {
+        "id": "2d4881fa3c88",
+        "title": "Museu de Lisboa - Santo António",
+        "venue": "Museu de Lisboa - Santo António"
+      }
+    },
+    {
+      "kind": "merge",
+      "sig": "05a9a48b7f6c",
+      "confidence": 0.9,
+      "reason": "same fado show, venue name variation",
+      "canonical": {
+        "id": "b45b4fd850d9",
+        "title": "Fado in Chiado",
+        "venue": "Fado in Chiado"
+      },
+      "removed": [
+        {
+          "id": "8d6c28a880e9",
+          "title": "FADO IN CHIADO - Em palco há 17 anos",
+          "topic": "music",
+          "categories": [
+            1
+          ],
+          "venue": "Cine Theatro Gymnasio - Espaço Chiado",
+          "source_id": "ticketline",
+          "neighbourhood": null,
+          "zone": null,
+          "lat": null,
+          "lng": null,
+          "start": "2026-08-10",
+          "end": null,
+          "all_day": true,
+          "ongoing": false,
+          "days": [
+            "mon"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://www.ticketline.pt/evento/fado-in-chiado-87707",
+          "source": "ticketline",
+          "description": "",
+          "image": "https://info.ticketline.pt/images/Espectaculos/87707/cartaz.jpg?rev=20260806152053",
           "lineup": null,
           "links": null,
           "prov": null
@@ -519,57 +417,106 @@
     },
     {
       "kind": "merge",
-      "sig": "cef1f1336b72",
-      "confidence": 0.99,
-      "reason": "same workshop, different descriptions, date overlap",
+      "sig": "6efa0a68417e",
+      "confidence": 0.95,
+      "reason": "same eclipse viewing party, organizer vs venue",
       "canonical": {
-        "id": "aacc9366d387",
-        "title": "Masterchef Romano",
-        "venue": "Museu de Lisboa - Teatro Romano"
+        "id": "3f014c757cba",
+        "title": "Festa grátis com ecrã gigante para ver o histórico eclipse de 12 de agosto",
+        "venue": "Quiosques de Lisboa / miradouro kiosks"
       },
       "removed": [
         {
-          "id": "b1ec3fb465b8",
-          "title": "Teatro Romano - Masterchef Romano - Oficina",
-          "topic": "performance",
+          "id": "63bd2fb6b8c3",
+          "title": "Festa Grátis com Ecrã Gigante para o Eclipse Solar",
+          "topic": "outdoors",
           "categories": [
-            1
+            1,
+            2
           ],
-          "venue": "ML - Teatro Romano",
-          "source_id": "bol",
-          "neighbourhood": "Baixa",
-          "zone": "city",
-          "lat": 38.7103669,
-          "lng": -9.1324807,
-          "start": "2026-08-09T10:30",
-          "end": "2026-10-10",
-          "all_day": false,
-          "ongoing": true,
+          "venue": "Lisboa Secreta",
+          "source_id": "lisboa-secreta",
+          "neighbourhood": null,
+          "zone": null,
+          "lat": null,
+          "lng": null,
+          "start": "2026-08-12",
+          "end": null,
+          "all_day": true,
+          "ongoing": false,
           "days": [
-            "sun"
+            "wed"
           ],
           "price": {
-            "is_free": false,
-            "min": 5.0,
+            "is_free": true,
+            "min": 0,
             "currency": "EUR",
-            "text": "€5"
+            "text": "Grátis"
           },
           "language": [
             "pt"
           ],
-          "url": "https://www.bol.pt/Comprar/Bilhetes/162823-teatro_romano_masterchef_romano_oficina-ml_teatro_romano/",
-          "source": "bol",
-          "description": "",
-          "image": "https://bolimg.blob.core.windows.net/producao/imagens/espectaculos/cartaz139747.jpg?v=3",
+          "url": "https://lisboasecreta.co/evento-gratuito-eclipse-solar-oeiras/",
+          "source": "generic",
+          "description": "Celebração gratuita na praia com ecrã gigante para assistir ao primeiro eclipse solar total visível em Portugal desde 1912.",
+          "image": null,
           "lineup": null,
           "links": null,
           "prov": null
         }
       ],
-      "topic": {
-        "from": "family",
-        "to": "workshops"
-      }
+      "topic": null
+    },
+    {
+      "kind": "merge",
+      "sig": "e7f69be25f2e",
+      "confidence": 0.9,
+      "reason": "same club night, overlapping DJs",
+      "canonical": {
+        "id": "e3773d87ac09",
+        "title": "Riktus with Acid Asian (KNTXT), MANIL, Fylhas do Dragão",
+        "venue": "Ministerium Club"
+      },
+      "removed": [
+        {
+          "id": "7ae854af108a",
+          "title": "Acid Asian and Thaïs LORME",
+          "topic": "music",
+          "categories": [
+            1
+          ],
+          "venue": "Ministerium Club",
+          "source_id": "songkick",
+          "neighbourhood": "Baixa",
+          "zone": "city",
+          "lat": null,
+          "lng": null,
+          "start": "2026-08-13",
+          "end": null,
+          "all_day": true,
+          "ongoing": false,
+          "days": [
+            "thu"
+          ],
+          "price": {
+            "is_free": false,
+            "min": null,
+            "currency": "EUR",
+            "text": ""
+          },
+          "language": [
+            "pt"
+          ],
+          "url": "https://songkick.com/metro-areas/31802-portugal-lisbon",
+          "source": "songkick",
+          "description": "Concerto de música eletrónica.",
+          "image": null,
+          "lineup": null,
+          "links": null,
+          "prov": null
+        }
+      ],
+      "topic": null
     }
   ]
 }
