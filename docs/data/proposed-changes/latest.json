@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T09:00:33Z",
+  "generated_at": "2026-08-10T07:07:33Z",
   "is_sample": false,
   "closures": [
     {
@@ -13,14 +13,14 @@
       "id": "titanic-sur-mer",
       "name": "Titanic Sur Mer",
       "neighbourhood": "Cais do Sodré",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "eka-palace-eka-unity",
       "name": "EKA Palace (EKA unity)",
       "neighbourhood": "Beato",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
@@ -48,77 +48,77 @@
       "id": "tijolo-ceramica-e-joalharia",
       "name": "Tijolo — Cerâmica e Joalharia",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "olaria-lisboa",
       "name": "Olaria Lisboa",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "caulino-ceramics",
       "name": "Caulino Ceramics",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "ceramica-d-alfama",
       "name": "Cerâmica d'Alfama",
       "neighbourhood": "Alfama",
-      "reason": "5 sinais de inacessibilidade",
+      "reason": "6 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "mariana-sampaio-studio",
       "name": "Mariana Sampaio Studio",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "olho-rede-de-artes-e-oficios-de-lisboa",
       "name": "OLHO / Rede de Artes e Ofícios de Lisboa",
       "neighbourhood": "Alfama",
-      "reason": "5 sinais de inacessibilidade",
+      "reason": "6 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "stolen-prints",
       "name": "Stolen Prints",
       "neighbourhood": "Bairro Alto",
-      "reason": "5 sinais de inacessibilidade",
+      "reason": "6 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "olisipo-coffee-roasters",
       "name": "Olisipo Coffee Roasters",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "jazzy-dance-studios",
       "name": "Jazzy Dance Studios",
       "neighbourhood": "Santos",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "steps",
       "name": "STEPS",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "portal-da-danca",
       "name": "Portal da Dança",
       "neighbourhood": null,
-      "reason": "4 sinais de inacessibilidade",
+      "reason": "5 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
@@ -129,59 +129,66 @@
       "current_status": "possibly_closed"
     },
     {
+      "id": "motelx",
+      "name": "MOTELX",
+      "neighbourhood": null,
+      "reason": "2 sinais de inacessibilidade",
+      "current_status": "active"
+    },
+    {
       "id": "festa-do-cinema-alemao",
       "name": "Festa do Cinema Alemão",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "lav-lisboa-ao-vivo",
       "name": "LAV – Lisboa ao Vivo",
       "neighbourhood": "Alcântara",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "pavilhao-carlos-lopes",
       "name": "Pavilhão Carlos Lopes",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "sabotage-club",
       "name": "Sabotage Club",
       "neighbourhood": "Cais do Sodré",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "cossoul",
       "name": "Cossoul",
       "neighbourhood": "Santos",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "teatro-tivoli-bbva",
       "name": "Teatro Tivoli BBVA",
       "neighbourhood": "Avenida da Liberdade",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "museu-nacional-de-etnologia",
       "name": "Museu Nacional de Etnologia",
       "neighbourhood": "Belém",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "museu-nacional-dos-coches",
       "name": "Museu Nacional dos Coches",
       "neighbourhood": "Belém",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
@@ -202,84 +209,84 @@
       "id": "sem",
       "name": "SEM",
       "neighbourhood": "Alfama",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "festival-ao-largo",
       "name": "Festival ao Largo",
       "neighbourhood": "Chiado",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "santa-casa-alfama",
       "name": "Santa Casa Alfama",
       "neighbourhood": "Alfama",
-      "reason": "9 sinais de inacessibilidade",
+      "reason": "10 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "rookie-run-club-lisbon",
       "name": "Rookie Run Club Lisbon",
       "neighbourhood": "Cais do Sodré",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "correr-lisboa",
       "name": "Correr Lisboa",
       "neighbourhood": null,
-      "reason": "7 sinais de inacessibilidade",
+      "reason": "8 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "anjos-pilates",
       "name": "Anjos Pilates",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "ler-devagar",
       "name": "Ler Devagar",
       "neighbourhood": "Alcântara",
-      "reason": "2 sinais de inacessibilidade",
+      "reason": "3 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "goethe-institut-portugal",
       "name": "Goethe-Institut Portugal",
       "neighbourhood": "Intendente",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "instituto-de-ciencias-sociais-ics-ulisboa",
       "name": "Instituto de Ciências Sociais (ICS-ULisboa)",
       "neighbourhood": "Alvalade",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "universidade-nova-de-lisboa",
       "name": "Universidade NOVA de Lisboa",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "startup-lisboa",
       "name": "Startup Lisboa",
       "neighbourhood": "Baixa",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "heden",
       "name": "Heden",
       "neighbourhood": "Chiado",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
@@ -293,14 +300,14 @@
       "id": "carlos-carvalho-arte-contemporanea",
       "name": "Carlos Carvalho – Arte Contemporânea",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "galeria-madragoa",
       "name": "Galeria Madragoa",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
@@ -314,35 +321,35 @@
       "id": "pavilhao-do-conhecimento-ciencia-viva",
       "name": "Pavilhão do Conhecimento – Ciência Viva",
       "neighbourhood": "Parque das Nações",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "kiss-the-cook",
       "name": "Kiss the Cook",
       "neighbourhood": "Alcântara",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "immersivus-gallery-lisboa",
       "name": "Immersivus Gallery Lisboa",
       "neighbourhood": "Campolide",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "lisbon-legends",
       "name": "Lisbon Legends",
       "neighbourhood": "Chiado",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "museum-of-illusions-lisbon",
       "name": "Museum of Illusions Lisbon",
       "neighbourhood": "Chiado",
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
@@ -356,14 +363,14 @@
       "id": "sintra-treks",
       "name": "Sintra Treks",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "altlab-lisbon-s-hackerspace",
       "name": "altLab — Lisbon's Hackerspace",
       "neighbourhood": null,
-      "reason": "5 sinais de inacessibilidade",
+      "reason": "6 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
@@ -377,14 +384,7 @@
       "id": "blues-and-swing-lisboa",
       "name": "Blues & Swing Lisboa",
       "neighbourhood": "Arroios",
-      "reason": "10 sinais de inacessibilidade",
-      "current_status": "active"
-    },
-    {
-      "id": "disquiet-international-literary-program",
-      "name": "Disquiet International Literary Program",
-      "neighbourhood": null,
-      "reason": "2 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
@@ -398,61 +398,44 @@
       "id": "brigada-do-mar",
       "name": "Brigada do Mar",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "ocean-alive-mariscar-sem-lixo",
       "name": "Ocean Alive — \"Mariscar sem Lixo\"",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "zero-waste-portugal-lixo-zero",
       "name": "Zero Waste Portugal (Lixo Zero)",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "festival-iminente",
       "name": "Festival Iminente",
       "neighbourhood": null,
-      "reason": "5 sinais de inacessibilidade",
+      "reason": "6 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "peixe-em-lisboa",
       "name": "Peixe em Lisboa",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     },
     {
       "id": "lisbon-street-photography-festival",
       "name": "Lisbon Street Photography Festival",
       "neighbourhood": null,
-      "reason": "10 sinais de inacessibilidade",
+      "reason": "11 sinais de inacessibilidade",
       "current_status": "active"
     }
   ],
-  "new_venues": [
-    {
-      "name": "Candlelight",
-      "neighbourhood": null,
-      "topic": "music",
-      "url": null,
-      "found_via": "Cartaz Cultural Lisboa",
-      "note": "Concertos Candlelight"
-    },
-    {
-      "name": "Gracinha",
-      "neighbourhood": null,
-      "topic": "music",
-      "url": null,
-      "found_via": "NiT (New in Town)",
-      "note": ""
-    }
-  ]
+  "new_venues": []
 }
