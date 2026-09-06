@@ -1,6 +1,14 @@
 {
   "weeks": [
     {
+      "start": "2026-09-07",
+      "end": "2026-09-13",
+      "file": "2026-09-07.json",
+      "event_count": 759,
+      "is_sample": false,
+      "generated_at": "2026-09-06T10:15:49Z"
+    },
+    {
       "start": "2026-08-31",
       "end": "2026-09-06",
       "file": "2026-08-31.json",

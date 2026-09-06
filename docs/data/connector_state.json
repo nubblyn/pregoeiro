@@ -1,99 +1,99 @@
 {
   "agendalx": {
     "counts": [
-      480,
       474,
       436,
       419,
       429,
       435,
       518,
-      570
+      570,
+      613
     ],
-    "last_count": 570,
+    "last_count": 613,
     "last_status": "ok",
     "median": 455.0,
-    "updated_at": "2026-08-30"
+    "updated_at": "2026-09-06"
   },
   "ccb": {
     "counts": [
-      108,
       81,
       106,
       130,
       135,
       139,
       141,
-      130
+      130,
+      139
     ],
-    "last_count": 130,
+    "last_count": 139,
     "last_status": "ok",
-    "median": 119.0,
-    "updated_at": "2026-08-30"
+    "median": 130.0,
+    "updated_at": "2026-09-06"
   },
   "gulbenkian": {
     "counts": [
-      130,
       96,
       73,
       56,
       51,
       52,
       66,
-      79
+      79,
+      92
     ],
-    "last_count": 79,
+    "last_count": 92,
     "last_status": "ok",
     "median": 69.5,
-    "updated_at": "2026-08-30"
+    "updated_at": "2026-09-06"
   },
   "ra": {
     "counts": [
-      146,
       123,
       112,
       125,
       126,
       137,
       118,
-      121
+      121,
+      119
     ],
-    "last_count": 121,
+    "last_count": 119,
     "last_status": "ok",
-    "median": 125.5,
-    "updated_at": "2026-08-30"
+    "median": 124.0,
+    "updated_at": "2026-09-06"
   },
   "bol": {
     "counts": [
-      410,
       393,
       438,
       407,
       425,
       428,
       439,
-      677
+      677,
+      651
     ],
-    "last_count": 677,
+    "last_count": 651,
     "last_status": "ok",
     "median": 426.5,
-    "updated_at": "2026-08-30"
+    "updated_at": "2026-09-06"
   },
   "xceed": {
     "counts": [
-      41,
       39,
       40,
       40,
       45,
       44,
       44,
-      41
+      41,
+      44
     ],
-    "last_count": 41,
+    "last_count": 44,
     "last_status": "ok",
-    "median": 40.5,
-    "updated_at": "2026-08-30"
+    "median": 41.0,
+    "updated_at": "2026-09-06"
   },
   "mato": {
     "counts": [
@@ -109,70 +109,70 @@
     "last_count": 17,
     "last_status": "partial",
     "median": 17.0,
-    "updated_at": "2026-08-30"
+    "updated_at": "2026-09-06"
   },
   "dice": {
     "counts": [
-      27,
       26,
       1,
       3,
       26,
       2,
       29,
-      25
+      25,
+      2
     ],
-    "last_count": 25,
-    "last_status": "ok",
-    "median": 24.5,
-    "updated_at": "2026-08-30"
+    "last_count": 2,
+    "last_status": "shrunk",
+    "median": 25.5,
+    "updated_at": "2026-09-06"
   },
   "ticketline": {
     "counts": [
-      92,
       64,
       40,
       50,
       43,
       35,
       29,
-      13
+      13,
+      156
     ],
-    "last_count": 13,
-    "last_status": "shrunk",
-    "median": 46.5,
-    "updated_at": "2026-08-30"
+    "last_count": 156,
+    "last_status": "ok",
+    "median": 41.5,
+    "updated_at": "2026-09-06"
   },
   "fever": {
     "counts": [
-      30,
       26,
       29,
       27,
       29,
       31,
       31,
-      34
+      34,
+      32
     ],
-    "last_count": 34,
+    "last_count": 32,
     "last_status": "ok",
-    "median": 29.0,
-    "updated_at": "2026-08-30"
+    "median": 29.5,
+    "updated_at": "2026-09-06"
   },
   "meetup": {
     "counts": [
-      47,
       46,
       45,
       47,
       48,
       48,
       48,
-      47
+      47,
+      50
     ],
-    "last_count": 47,
+    "last_count": 50,
     "last_status": "ok",
-    "median": 47.5,
-    "updated_at": "2026-08-30"
+    "median": 47.0,
+    "updated_at": "2026-09-06"
   }
 }
